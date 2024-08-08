@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 const API = "AIzaSyC1NL0x8Xh2Li9JOfaORmG0igyR22c81X0"
-const channelId = "UCW7UI89XzGf6N58iSyLXgmQ"
+const channelId = "UC6Naq7aM5GgupsKOZJ4LMng"
 
 var fetchurl = `https://www.googleapis.com/youtube/v3/search?key=${API}&channelId=${channelId}&part=snippet,id&order=date&maxResults=20`
 
